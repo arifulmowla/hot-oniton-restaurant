@@ -1,0 +1,62 @@
+.logo {
+  width: auto;
+  height: 30px;
+}
+
+.btn {
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+.btn-white {
+  background-color: white;
+  border: none;
+  color: black;
+}
+
+.btn-color {
+  background-color: red;
+}
+
+.cart-icon {
+  color: gray;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.nav-item {
+  margin-left: 15px;
+}
+
+.cart-badge {
+  font-size: 11px;
+  padding: 0 0.4em;
+}
+
+.cart-x {
+  color: black;
+  padding: 0 !important;
+  font-size: 11px;
+  background-color: transparent;
+  border: none;
+  height: 20px;
+}
+
+.cart-popover {
+  width: 400px !important;
+}
+
+.user-dropdown {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+.user-dropdown:hover {
+  background-color: transparent;
+  color: red;
+  border: none;
+}
+
+*:focus {
+  outline: none !important;
+}

@@ -1,0 +1,42 @@
+.single-product {
+  padding: 60px 0;
+}
+.single-prod-img {
+  width: 100%;
+}
+
+.count-btn {
+  color: black;
+  border: 1px solid #ddd;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: 5px;
+}
+.count-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+*:focus {
+  outline: none;
+  border: none;
+}
+
+.btn-add-cart {
+  margin-top: 15px;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  padding: 8px 30px;
+}
+.count-number {
+  width: 30px;
+  border: none;
+  text-align: center;
+}

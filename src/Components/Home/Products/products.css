@@ -1,0 +1,51 @@
+.section-links {
+  text-align: center;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-links a {
+  font-weight: bold;
+  margin: 0 30px;
+  font-size: 16px;
+}
+.section-links a:hover {
+  cursor: pointer;
+  color: red !important;
+  border-bottom: 3px solid red;
+}
+
+.section-links a:active {
+  color: red;
+}
+
+.link-active {
+  cursor: pointer;
+  color: red !important;
+  border-bottom: 3px solid red;
+}
+
+.btn-checkout {
+  float: center;
+  display: block;
+  margin: 60px auto;
+  margin-top: 60px;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+}
+
+.btn-checkout:disabled {
+  background-color: #e56f8d;
+}
+
+.text-normal {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.text-normal:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+}

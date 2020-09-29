@@ -1,0 +1,19 @@
+.de-img {
+  width: 50px;
+}
+.de-img img {
+  width: 100%;
+}
+.delivery-time {
+  padding: 30px 20px;
+  background-color: rgb(238, 237, 237);
+  border-radius: 12px;
+  margin: 30px 0;
+}
+
+.raider-img {
+  width: 50px;
+}
+.raider-img img {
+  width: 100%;
+}
