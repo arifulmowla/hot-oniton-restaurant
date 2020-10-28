@@ -22,7 +22,7 @@
   vertical-align: middle;
   align-items: center;
   justify-content: center;
-  margin-top: 5px;
+  margin: 10px 0;
 }
 .nav-item {
   margin-left: 15px;
@@ -59,4 +59,13 @@
 
 *:focus {
   outline: none !important;
+}
+
+.badge {
+  margin-top: 2px;
+  position: absolute;
+}
+
+button#dropdown-basic {
+  margin: 5px 10px;
 }

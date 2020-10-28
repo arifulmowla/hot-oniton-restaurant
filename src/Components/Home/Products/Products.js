@@ -9,12 +9,18 @@ import ProductsDataBreakfast, {
 import { Button } from "react-bootstrap";
 import { CartContext } from "../../../App";
 import { NONAME } from "dns";
+import { getBreakfast } from "../../../Store/Store";
 
 const Products = () => {
   const [products, setProducts] = useState(ProductsDataBreakfast);
 
   const [category, setCategory] = useState("Breakfast");
 
+  // Breakfast data
+  let breakfastData = getBreakfast();
+  console.log(breakfastData);
+  breakfastData.then((data) => console.log(data));
+  console.log(breakfastData);
   const [cart, setCart] = useContext(CartContext);
   let checkoutStatus = "disabled";
   if (cart.length > 0) {

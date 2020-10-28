@@ -1,8 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Creative Agency Frontend
 
-## Available Scripts
+A restaurant website that has fully functional e-commerce features and attractive design. Here the client can purchase food and the admin can manage sales.
 
-In the project directory, you can run:
+## Features
+
+- Full responsive and mobile friendly
+- Showcase all recipes
+- Client can order and manage from dashboard
+- Client can trace the live order map
+
+## Technology
+
+- Javascript
+- React.Js
+- Firebase
+- (S)CSS
+- HTML
+
+| [live](https://red-onion-restaurant-demo.web.app/) | [API](https://github.com/nokibrokes/hot-onion-restaurant-server) |
+
+## Installation
+
+In the project directory to run in your local host, you can run:
 
 ### `yarn start`
 
@@ -37,32 +56,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Please leave a star if you like it.
